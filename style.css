@@ -17,3 +17,6 @@
 .hotBadge{
     right: 10px;
 }
+.pShadow{
+    box-shadow: 0px 30px 30px #9bb9e6 ;
+}
