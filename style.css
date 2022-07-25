@@ -1,0 +1,16 @@
+.cImg{
+    min-height: 80vh;
+    object-fit: cover;
+
+}
+.albumDescription{
+    position: relative;
+}
+.offerToast{
+    position: absolute;
+    right: -10px;
+    top: 55px;
+}
+.tBody{
+    border-left: 8px solid #0b5ed7;
+}
