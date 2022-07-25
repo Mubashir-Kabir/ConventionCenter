@@ -142,7 +142,7 @@
       </div>
     </section>
     <section class="album p-md-5 p-3 d-flex flex-md-row-reverse flex-column align-items-center row g-3">
-      <div class="col-md-6 col-12 albumDescription">
+      <div class="col-md-6 col-12 albumDescription position-relative">
         <h1>Every moment is precious</h1>
 
         <p>
@@ -151,7 +151,7 @@
           officiis hic, molestias mollitia suscipit ut inventore, beatae earum
           eveniet! Incidunt, excepturi similique?
         </p>
-        <div class="toast align-items-center show offerToast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast align-items-center show offerToast position-absolute" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="d-flex">
           <div class="toast-body tBody">
             <i class="fa-solid fa-gift"></i>
@@ -175,11 +175,13 @@
     </section>
 
     <section class="packages">
-        <div class="packageContainer">
-            <h3 class="text-center m-md-5 m-2">Our Packages</h3>
+        <div class="packageContainer p-md-5 p-2">
+            <div class="mb-5">
+              <h3 class="text-center m-md-5 m-2">Our Packages</h3>
+            </div>
             <div class="pcards d-flex flex-md-row flex-column g-5">
                 <div class="pcard col-md-3 col-12 p-3">
-                    <h4>$300</h4>
+                    <h4 class="mt-md-5 mt-1">$300</h4>
                     <h4>Business Fair</h4>
                     <p>For most businesses event 
                     like book fair, craft fair.
@@ -205,11 +207,11 @@
                         <p class="d-inline">Per day bill</p>
                     </div>
                     <div class="text-center">
-                        <button class="rounded-pill btn btn-primary m-2 p-2 w-100">Choose Plan</button>
+                        <button class="rounded-pill btn btn-primary mt-5 p-2 w-100">Choose Plan</button>
                     </div>
                 </div>
                 <div class="pcard col-md-3 col-12 g-3 p-3">
-                    <h4>$300</h4>
+                    <h4 class="mt-md-5 mt-1">$300</h4>
                     <h4>Business Fair</h4>
                     <p>For most businesses event 
                     like book fair, craft fair.
@@ -235,10 +237,15 @@
                         <p class="d-inline">Per day bill</p>
                     </div>
                     <div class="text-center">
-                        <button class="rounded-pill btn btn-primary m-2 p-2 w-100">Choose Plan</button>
+                        <button class="rounded-pill btn btn-primary mt-5 p-2 w-100">Choose Plan</button>
                     </div>
                 </div>
-                <div class="pcard col-md-3 col-12 g-3 p-3">
+                <div class="pcard col-md-3 col-12 g-3 p-3  bg-primary text-white rounded-5 position-relative"  id="hotPackage">
+                  <span class="position-absolute top-0 hotBadge translate-middle badge rounded-pill bg-danger">
+                   Hot
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                  <div class="">
                     <h4>$300</h4>
                     <h4>Business Fair</h4>
                     <p>For most businesses event 
@@ -265,11 +272,12 @@
                         <p class="d-inline">Per day bill</p>
                     </div>
                     <div class="text-center">
-                        <button class="rounded-pill btn btn-primary m-2 p-2 w-100">Choose Plan</button>
+                        <button class="rounded-pill btn btn-light text-primary mt-5 p-2 w-100">Choose Plan</button>
                     </div>
                 </div>
+                </div>
                 <div class="pcard col-md-3 col-12 g-3 p-3">
-                    <h4>$300</h4>
+                    <h4 class="mt-md-5 mt-1">$300</h4>
                     <h4>Business Fair</h4>
                     <p>For most businesses event 
                     like book fair, craft fair.
@@ -295,7 +303,7 @@
                         <p class="d-inline">Per day bill</p>
                     </div>
                     <div class="text-center">
-                        <button class="rounded-pill btn btn-primary m-2 p-2 w-100">Choose Plan</button>
+                        <button class="rounded-pill btn btn-primary mt-5 p-2 w-100">Choose Plan</button>
                     </div>
                 </div>
             </div>
